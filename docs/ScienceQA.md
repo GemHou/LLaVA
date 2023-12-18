@@ -7,10 +7,13 @@
 ```Shell
 python scripts/convert_sqa_to_llava.py \
     convert_to_llava \
-    --base-dir /path/to/ScienceQA/data/scienceqa \
-    --prompt-format "QCM-LEA" \
-    --split {train,val,minival,test,minitest}
+    --base-dir /mnt/nfs/houjing/repo/LLaVA/playground/data/eval/scienceqa \
+    --prompt-format "CQM-A" \
+    --split test
 ```
+/path/to/ScienceQA/data/scienceqa
+{train,val,minival,test,minitest}
+"QCM-LEA"
 
 #### Training
 

@@ -4,7 +4,7 @@ from llava.eval.run_llava import eval_model
 
 model_path = "/mnt/nfs/houjing/model_weights/llava-v1.5-7b"  # /home/zhangqi1/nfs/zhangqi/zhangqi_nfs/DLM-project/public_models/modelWeights/vicuna-13b-v1.5
 prompt = "What is in the picture and which one is more cute?"  # What are the things I should be cautious about when I visit here?
-image_file = "/mnt/nfs/houjing/repo/LLaVA/fig/20231206-105333.jpg"  # https://llava-vl.github.io/static/images/view.jpg
+image_file = "/mnt/nfs/houjing/repo/LLaVA/fig/20231206-173926.jpg"  # "/mnt/nfs/houjing/repo/LLaVA/fig/20231206-105333.jpg"  # https://llava-vl.github.io/static/images/view.jpg
 
 
 args = type('Args', (), {

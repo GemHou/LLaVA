@@ -35,3 +35,10 @@ ckpts*
 serve_images/
 
 /fig
+playground/data/eval/textvqa/train_val_images/train_images/
+playground/data/eval/mm-vet/images/
+playground/data/eval/scienceqa/images/
+playground/data/eval/mm-vet/results/
+playground/data/eval_self/mm-vet/
+playground/data/eval_self/textvqa/
+playground/data/eval/mmbench/answers_upload/mmbench_dev_20230712/

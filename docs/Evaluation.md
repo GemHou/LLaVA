@@ -67,7 +67,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/vizwiz.sh
 1. Under `./playground/data/eval/scienceqa`, download `images`, `pid_splits.json`, `problems.json` from the `data/scienceqa` folder of the ScienceQA [repo](https://github.com/lupantech/ScienceQA).
 2. Single-GPU inference and evaluate.
 ```Shell
-CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/sqa.sh
+CUDA_VISIBLE_DEVICES=1 bash scripts/v1_5/eval/sqa.sh
 ```
 
 ### TextVQA
@@ -138,7 +138,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/llavabench.sh
 1. Extract [`mm-vet.zip`](https://github.com/yuweihao/MM-Vet/releases/download/v1/mm-vet.zip) to `./playground/data/eval/mmvet`.
 2. Single-GPU inference.
 ```Shell
-CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mmvet.sh
+CUDA_VISIBLE_DEVICES=1 bash scripts/v1_5/eval/mmvet.sh
 ```
 3. Evaluate the predictions in `./playground/data/eval/mmvet/results` using the official jupyter notebook.
 
